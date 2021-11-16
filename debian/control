@@ -1,14 +1,15 @@
-Source: fictionlab-keyring
+Source: fictionlab-archive-keyring
 Section: misc
 Priority: optional
 Maintainer: Błażej Sowa <blazej@fictionlab.pl>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.1
-Vcs-Browser: https://github.com/fictionlab/fictionlab-keyring
-Vcs-Git: https://github.com/fictionlab/fictionlab-keyring.git
+Vcs-Browser: https://github.com/fictionlab/fictionlab-archive-keyring
+Vcs-Git: https://github.com/fictionlab/fictionlab-archive-keyring.git
 
-Package: fictionlab-keyring
+Package: fictionlab-archive-keyring
 Architecture: all
 Depends: ${misc:Depends}
-Description: GnuPG keys of the Fictionlab repository.
- This package contains keys used for signing the Fictionlab apt Release files.
+Description: GnuPG archive keys of the Fictionlab archive.
+ The Fictionlab archive digitally signs its Release files.
+ This package contains the keys used for that.

@@ -1,1 +1,2 @@
-keyrings/fictionlab-keyring.gpg    etc/apt/trusted.gpg.d/
+keyrings/fictionlab-archive.gpg    etc/apt/trusted.gpg.d/
+keyrings/fictionlab-archive.gpg    usr/share/keyrings/
