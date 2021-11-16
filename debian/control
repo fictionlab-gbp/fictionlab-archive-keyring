@@ -1,5 +1,5 @@
 Source: fictionlab-keyring
-Section: unknown
+Section: misc
 Priority: optional
 Maintainer: Błażej Sowa <blazej@fictionlab.pl>
 Build-Depends: debhelper-compat (= 12)
@@ -11,3 +11,4 @@ Package: fictionlab-keyring
 Architecture: all
 Depends: ${misc:Depends}
 Description: GnuPG keys of the Fictionlab repository.
+ This package contains keys used for signing the Fictionlab apt Release files.
