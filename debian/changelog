@@ -1,3 +1,9 @@
+fictionlab-archive-keyring (2021.11.16.1) focal; urgency=medium
+
+  * Install the keyring to /usr/share/keyrings
+
+ -- Błażej Sowa <blazej@fictionlab.pl>  Tue, 16 Nov 2021 18:24:58 +0000
+
 fictionlab-archive-keyring (2021.11.16) focal; urgency=medium
 
   * Initial Release.
